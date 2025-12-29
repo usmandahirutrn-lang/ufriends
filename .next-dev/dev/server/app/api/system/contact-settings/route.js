@@ -1,0 +1,6 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/system/contact-settings/route.js")
+R.c("server/chunks/node_modules_next_3a564d1d._.js")
+R.c("server/chunks/[root-of-the-server]__1f460b87._.js")
+R.c("server/chunks/_next-internal_server_app_api_system_contact-settings_route_actions_e1388bb9.js")
+R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/system/contact-settings/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/system/contact-settings/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
