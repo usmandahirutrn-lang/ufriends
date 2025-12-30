@@ -4,7 +4,7 @@
 /node_modules
 
 # next.js
-/.next/
+# /.next/s
 /out/
 
 # production
@@ -18,7 +18,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files
-# .env*
+.env*
 
 # vercel
 .vercel
@@ -28,4 +28,4 @@ yarn-error.log*
 next-env.d.ts
 
 # scripts
-# /scripts/
+/scripts/
