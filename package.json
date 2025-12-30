@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "build:vps": "NODE_OPTIONS='--max-old-space-size=3072' next build",
     "dev": "next dev",
     "lint": "eslint .",
     "start": "next start -p ${PORT:-3000}",
