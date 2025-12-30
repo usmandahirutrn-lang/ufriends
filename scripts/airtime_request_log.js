@@ -18,7 +18,7 @@ async function login() {
 }
 
 async function main() {
-  const BASE = process.env.BASE_URL || 'http://localhost:3000'
+  const BASE = process.env.BASE_URL || 'http://localhost:5070'
   const LOG = 'services-smoke.log'
   const token = await login()
 

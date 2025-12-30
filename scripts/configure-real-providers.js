@@ -1,5 +1,5 @@
 // Configure real providers for airtime, data, and bills services
-const BASE = process.env.BASE_URL || "http://localhost:3000"
+const BASE = process.env.BASE_URL || "http://localhost:5070"
 const EMAIL = process.env.ADMIN_EMAIL || "admin@ufriends.local"
 const PASSWORD = process.env.ADMIN_PASSWORD || "Admin123!"
 

@@ -8,12 +8,12 @@
  - POST /api/auth/logout
 
  Usage (PowerShell):
-   $env:BASE_URL="http://localhost:3001"; $env:TEST_EMAIL="admin@ufriends.local"; $env:TEST_PASSWORD="Admin123!"; node scripts/auth-smoke.js
+   $env:BASE_URL="http://localhost:5070"; $env:TEST_EMAIL="admin@ufriends.local"; $env:TEST_PASSWORD="Admin123!"; node scripts/auth-smoke.js
 
  Exits non-zero on failure.
 */
 
-const BASE = process.env.BASE_URL || "http://localhost:3000"
+const BASE = process.env.BASE_URL || "http://localhost:5070"
 
 async function login(email, password) {
   const res = await fetch(`${BASE}/api/auth/login`, {
@@ -65,7 +65,7 @@ async function main() {
   if (!email || !password) {
     console.error("Missing TEST_EMAIL or TEST_PASSWORD env vars.")
     console.error(
-      "Set them and re-run, e.g.: $env:BASE_URL='http://localhost:3001'; $env:TEST_EMAIL='admin@ufriends.local'; $env:TEST_PASSWORD='Admin123!'; node scripts/auth-smoke.js"
+      "Set them and re-run, e.g.: $env:BASE_URL='http://localhost:5070'; $env:TEST_EMAIL='admin@ufriends.local'; $env:TEST_PASSWORD='Admin123!'; node scripts/auth-smoke.js"
     )
     process.exit(2)
   }

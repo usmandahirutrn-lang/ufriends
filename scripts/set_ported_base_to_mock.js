@@ -2,7 +2,7 @@ const { PrismaClient } = require('@prisma/client')
 
 async function main() {
   const prisma = new PrismaClient()
-  const BASE = process.env.BASE_URL || 'http://localhost:3000'
+  const BASE = process.env.BASE_URL || 'http://localhost:5070'
   const newBase = `${BASE}/api/mock/ported`
   try {
     const names = ['PortedSIM Airtime', 'PortedSIM Data']

@@ -5,7 +5,7 @@
  - Calls GET /api/admin/providers to verify categories and providers
 
  Usage (PowerShell):
-   $env:BASE_URL="http://localhost:3000"; 
+   $env:BASE_URL="http://localhost:5070"; 
    $env:ADMIN_EMAIL="admin@ufriends.local"; 
    $env:ADMIN_PASSWORD="Admin123!"; 
    node scripts/admin-providers-smoke.js
@@ -13,7 +13,7 @@
  Exits non-zero on failure.
 */
 
-const BASE = process.env.BASE_URL || "http://localhost:3000"
+const BASE = process.env.BASE_URL || "http://localhost:5070"
 const EMAIL = process.env.ADMIN_EMAIL || process.env.TEST_EMAIL || "admin@ufriends.local"
 const PASSWORD = process.env.ADMIN_PASSWORD || process.env.TEST_PASSWORD || "Admin123!"
 

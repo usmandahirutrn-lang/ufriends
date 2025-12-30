@@ -9,7 +9,7 @@
  - POST /api/admin/service/retry/[reference] (admin retry)
 
  Usage (PowerShell):
-   $env:BASE_URL="http://localhost:3000";
+   $env:BASE_URL="http://localhost:5070";
    $env:AUTH_SMOKE_EMAIL="usman@universalkart.com.ng";
    $env:AUTH_SMOKE_PASSWORD="Admin123!";
    node scripts/service-flows-smoke.js
@@ -17,14 +17,14 @@
  Exits non-zero on failure.
 */
 
-const BASE = process.env.BASE_URL || "http://localhost:3000"
+const BASE = process.env.BASE_URL || "http://localhost:5070"
 const EMAIL = process.env.AUTH_SMOKE_EMAIL || process.env.ADMIN_EMAIL
 const PASSWORD = process.env.AUTH_SMOKE_PASSWORD || process.env.ADMIN_PASSWORD
 
 if (!EMAIL || !PASSWORD) {
   console.error("Missing AUTH_SMOKE_EMAIL or AUTH_SMOKE_PASSWORD env vars.")
   console.error("Set them and re-run, e.g.:")
-  console.error("$env:BASE_URL='http://localhost:3000'; $env:AUTH_SMOKE_EMAIL='admin@ufriends.local'; $env:AUTH_SMOKE_PASSWORD='Admin123!'; node scripts/service-flows-smoke.js")
+  console.error("$env:BASE_URL='http://localhost:5070'; $env:AUTH_SMOKE_EMAIL='admin@ufriends.local'; $env:AUTH_SMOKE_PASSWORD='Admin123!'; node scripts/service-flows-smoke.js")
   process.exit(2)
 }
 

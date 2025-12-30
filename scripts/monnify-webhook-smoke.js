@@ -9,7 +9,7 @@
  Prereq: Dev server started with env `MONNIFY_WEBHOOK_SECRET`.
 
  Usage (PowerShell):
-   $env:BASE_URL="http://localhost:3000";
+   $env:BASE_URL="http://localhost:5070";
    $env:AUTH_SMOKE_EMAIL="usman@universalkart.com.ng";
    $env:AUTH_SMOKE_PASSWORD="Admin123!";
    $env:MONNIFY_WEBHOOK_SECRET="dev-monnify-secret";
@@ -20,7 +20,7 @@
 
 const crypto = require("crypto")
 
-const BASE = process.env.BASE_URL || "http://localhost:3000"
+const BASE = process.env.BASE_URL || "http://localhost:5070"
 const EMAIL = process.env.AUTH_SMOKE_EMAIL || process.env.ADMIN_EMAIL
 const PASSWORD = process.env.AUTH_SMOKE_PASSWORD || process.env.ADMIN_PASSWORD
 const MONNIFY_SECRET = process.env.MONNIFY_WEBHOOK_SECRET

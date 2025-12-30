@@ -33,18 +33,21 @@ UFriends is a comprehensive digital services platform designed to streamline ver
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone [repository-url]
    cd ufriends-version-1
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Environment Setup:**
    Create a `.env` file in the root directory based on `.env.example`:
+
    ```env
    DATABASE_URL="your-database-url"
    NEXTAUTH_SECRET="your-secret"
@@ -53,6 +56,7 @@ UFriends is a comprehensive digital services platform designed to streamline ver
    ```
 
 4. **Database Configuration:**
+
    ```bash
    npx prisma generate
    npx prisma db push
@@ -63,31 +67,35 @@ UFriends is a comprehensive digital services platform designed to streamline ver
    ```bash
    npm run dev
    ```
-   The app will be available at `http://localhost:3000`.
+   The app will be available at `http://localhost:5070`.
 
 ## 📦 Deployment
 
 ### Production Build
+
 ```bash
 npm run build
 npm run start
 ```
 
 ### VPS Hosting with PM2
+
 To host this application on a VPS, use the provided `ecosystem.config.js` file.
 
 1. **Build the project:**
+
    ```bash
    npm run build
    ```
 
 2. **Start the application:**
+
    ```bash
    pm2 start ecosystem.config.js
    ```
 
 3. **Ports:**
-   By default, the production app runs on **Port 3001** (excluding 3000, 4050, 5000, 5001).
+   By default, the production app runs on **Port 5070** (excluding 3000, 3001, 3050, 5000, 5001).
 
 ## 📁 Project Structure
 

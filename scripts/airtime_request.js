@@ -15,7 +15,7 @@ async function main() {
     idempotencyKey: `AIR-${Date.now()}-${Math.random().toString(36).slice(2,6)}`,
   }
 
-  const res = await fetch('http://localhost:3000/api/service/airtime/vtu', {
+  const res = await fetch('http://localhost:5070/api/service/airtime/vtu', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

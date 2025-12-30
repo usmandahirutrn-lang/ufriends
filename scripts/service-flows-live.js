@@ -9,7 +9,7 @@
  - POST /api/verification/nin-slip
 
  Usage (PowerShell):
-   $env:BASE_URL="http://localhost:3000";
+   $env:BASE_URL="http://localhost:5070";
    $env:AUTH_SMOKE_EMAIL="admin@ufriends.local";
    $env:AUTH_SMOKE_PASSWORD="Admin123!";
    node scripts/service-flows-live.js
@@ -17,7 +17,7 @@
  Exits non-zero on failure.
 */
 
-const BASE = process.env.BASE_URL || "http://localhost:3000"
+const BASE = process.env.BASE_URL || "http://localhost:5070"
 const EMAIL = process.env.AUTH_SMOKE_EMAIL || process.env.ADMIN_EMAIL
 const PASSWORD = process.env.AUTH_SMOKE_PASSWORD || process.env.ADMIN_PASSWORD
 

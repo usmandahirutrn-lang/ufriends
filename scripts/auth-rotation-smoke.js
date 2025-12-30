@@ -6,7 +6,7 @@
  - Verifies /api/me works with the latest access token
 */
 
-const BASE_URL = process.env.BASE_URL || "http://localhost:3000"
+const BASE_URL = process.env.BASE_URL || "http://localhost:5070"
 const EMAIL = process.env.AUTH_SMOKE_EMAIL
 const PASSWORD = process.env.AUTH_SMOKE_PASSWORD
 

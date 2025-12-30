@@ -14,7 +14,7 @@
  for success/failure at each step and exit with a non-zero code on errors.
 */
 
-const BASE = process.env.BASE_URL || "http://localhost:3000"
+const BASE = process.env.BASE_URL || "http://localhost:5070"
 
 type LoginResult = {
   user: { id: string; email: string; role: string }

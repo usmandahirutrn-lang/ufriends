@@ -1,5 +1,5 @@
-n v vnfctg b/// Switch provider API base URLs to local mock endpoints for reliable testing
-const BASE = process.env.BASE_URL || "http://localhost:3000"
+/// Switch provider API base URLs to local mock endpoints for reliable testing
+const BASE = process.env.BASE_URL || "http://localhost:5070"
 const EMAIL = process.env.ADMIN_EMAIL || "admin@ufriends.local"
 const PASSWORD = process.env.ADMIN_PASSWORD || "Admin123!"
 

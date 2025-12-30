@@ -1,6 +1,6 @@
 // Configure SubAndGain as the active provider for airtime, data, bills, and education
 // Usage (PowerShell):
-//   $env:BASE_URL="http://localhost:3000"; 
+//   $env:BASE_URL="http://localhost:5070"; 
 //   $env:ADMIN_EMAIL="usman@universalkart.com.ng"; 
 //   $env:ADMIN_PASSWORD="Admin123!"; 
 //   $env:SUBANDGAIN_BASE_URL="https://subandgain.com"; 
@@ -8,7 +8,7 @@
 //   $env:SUBANDGAIN_USERNAME="<your_username>"; 
 //   node scripts/configure-subandgain-all.js
 
-const BASE = process.env.BASE_URL || "http://localhost:3000";
+const BASE = process.env.BASE_URL || "http://localhost:5070";
 const EMAIL = process.env.ADMIN_EMAIL || "admin@ufriends.local";
 const PASSWORD = process.env.ADMIN_PASSWORD || "Admin123!";
 

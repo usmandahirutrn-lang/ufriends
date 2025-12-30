@@ -1,5 +1,5 @@
 // Simple smoke tests for admin providers endpoints (unauthenticated -> 401)
-const BASE_URL = process.env.SMOKE_BASE_URL || "http://localhost:3000";
+const BASE_URL = process.env.SMOKE_BASE_URL || "http://localhost:5070";
 
 async function run() {
   const tests = [

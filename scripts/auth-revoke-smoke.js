@@ -7,7 +7,7 @@
  - Optionally checks /api/me; may still be valid until access token expiry
 */
 
-const BASE_URL = process.env.BASE_URL || "http://localhost:3000"
+const BASE_URL = process.env.BASE_URL || "http://localhost:5070"
 const EMAIL = process.env.AUTH_SMOKE_EMAIL
 const PASSWORD = process.env.AUTH_SMOKE_PASSWORD
 

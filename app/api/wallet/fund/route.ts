@@ -188,7 +188,7 @@ export async function POST(req: NextRequest) {
       })
       const customerName = userInfo?.profile?.name || (userInfo?.email?.split("@")[0] || "UFriends User")
       const customerEmail = userInfo?.email || ""
-      const redirectUrl = `${process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"}/dashboard/wallet`
+      const redirectUrl = `${process.env.NEXT_PUBLIC_APP_URL || "http://localhost:5070"}/dashboard/wallet`
 
       const init = await monnifyInitTransaction({
         amount,
