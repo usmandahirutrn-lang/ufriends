@@ -7,9 +7,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   // Ensure Next.js uses this project as the workspace root
   outputFileTracingRoot: process.cwd(),
   async headers() {
