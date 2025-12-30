@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/airtime/layout,_N_T_/services/airtime/glo/layout,_N_T_/services/airtime/glo/page,_N_T_/services/airtime/glo"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/airtime/glo/__PAGE__",
+    "/services/airtime/glo",
+    "/services/airtime",
+    "/services",
+    "/_index"
+  ]
+}

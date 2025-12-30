@@ -1,0 +1,3 @@
+{
+  "/api/admin/service/retry/[reference]/route": "app/api/admin/service/retry/[reference]/route.js"
+}

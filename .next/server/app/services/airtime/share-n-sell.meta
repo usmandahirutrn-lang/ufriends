@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/airtime/layout,_N_T_/services/airtime/share-n-sell/layout,_N_T_/services/airtime/share-n-sell/page,_N_T_/services/airtime/share-n-sell"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/airtime/share-n-sell/__PAGE__",
+    "/services/airtime/share-n-sell",
+    "/services/airtime",
+    "/services",
+    "/_index"
+  ]
+}

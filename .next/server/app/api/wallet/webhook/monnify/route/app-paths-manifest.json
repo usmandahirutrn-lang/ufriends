@@ -1,0 +1,3 @@
+{
+  "/api/wallet/webhook/monnify/route": "app/api/wallet/webhook/monnify/route.js"
+}

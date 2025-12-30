@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/training/layout,_N_T_/services/training/free-user/layout,_N_T_/services/training/free-user/page,_N_T_/services/training/free-user"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/training/free-user/__PAGE__",
+    "/services/training/free-user",
+    "/services/training",
+    "/services",
+    "/_index"
+  ]
+}

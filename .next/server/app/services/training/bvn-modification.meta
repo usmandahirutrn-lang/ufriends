@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/training/layout,_N_T_/services/training/bvn-modification/layout,_N_T_/services/training/bvn-modification/page,_N_T_/services/training/bvn-modification"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/training/bvn-modification/__PAGE__",
+    "/services/training/bvn-modification",
+    "/services/training",
+    "/services",
+    "/_index"
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "/api/wallet/spend-metrics/route": "app/api/wallet/spend-metrics/route.js"
+}

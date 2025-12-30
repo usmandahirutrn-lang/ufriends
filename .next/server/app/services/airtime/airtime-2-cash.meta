@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/airtime/layout,_N_T_/services/airtime/airtime-2-cash/layout,_N_T_/services/airtime/airtime-2-cash/page,_N_T_/services/airtime/airtime-2-cash"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/airtime/airtime-2-cash/__PAGE__",
+    "/services/airtime/airtime-2-cash",
+    "/services/airtime",
+    "/services",
+    "/_index"
+  ]
+}

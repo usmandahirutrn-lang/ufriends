@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/agency-banking/layout,_N_T_/services/agency-banking/marketer/layout,_N_T_/services/agency-banking/marketer/page,_N_T_/services/agency-banking/marketer"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/agency-banking/marketer/__PAGE__",
+    "/services/agency-banking/marketer",
+    "/services/agency-banking",
+    "/services",
+    "/_index"
+  ]
+}

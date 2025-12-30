@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/verification/layout,_N_T_/services/verification/tin/layout,_N_T_/services/verification/tin/page,_N_T_/services/verification/tin"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/verification/tin/__PAGE__",
+    "/services/verification/tin",
+    "/services/verification",
+    "/services",
+    "/_index"
+  ]
+}

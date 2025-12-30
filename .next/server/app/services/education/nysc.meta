@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/education/layout,_N_T_/services/education/nysc/layout,_N_T_/services/education/nysc/page,_N_T_/services/education/nysc"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/education/nysc/__PAGE__",
+    "/services/education/nysc",
+    "/services/education",
+    "/services",
+    "/_index"
+  ]
+}

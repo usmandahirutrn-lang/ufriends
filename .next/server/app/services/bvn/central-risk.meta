@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/bvn/layout,_N_T_/services/bvn/central-risk/layout,_N_T_/services/bvn/central-risk/page,_N_T_/services/bvn/central-risk"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/bvn/central-risk/__PAGE__",
+    "/services/bvn/central-risk",
+    "/services/bvn",
+    "/services",
+    "/_index"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/cac/layout,_N_T_/services/cac/registration/layout,_N_T_/services/cac/registration/page,_N_T_/services/cac/registration"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/cac/registration/__PAGE__",
+    "/services/cac/registration",
+    "/services/cac",
+    "/services",
+    "/_index"
+  ]
+}

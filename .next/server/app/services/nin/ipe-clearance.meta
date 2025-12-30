@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/nin/layout,_N_T_/services/nin/ipe-clearance/layout,_N_T_/services/nin/ipe-clearance/page,_N_T_/services/nin/ipe-clearance"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/nin/ipe-clearance/__PAGE__",
+    "/services/nin/ipe-clearance",
+    "/services/nin",
+    "/services",
+    "/_index"
+  ]
+}

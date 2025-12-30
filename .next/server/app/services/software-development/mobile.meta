@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/software-development/layout,_N_T_/services/software-development/mobile/layout,_N_T_/services/software-development/mobile/page,_N_T_/services/software-development/mobile"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/software-development/mobile/__PAGE__",
+    "/services/software-development/mobile",
+    "/services/software-development",
+    "/services",
+    "/_index"
+  ]
+}

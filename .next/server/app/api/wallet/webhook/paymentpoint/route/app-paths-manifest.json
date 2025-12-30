@@ -1,0 +1,3 @@
+{
+  "/api/wallet/webhook/paymentpoint/route": "app/api/wallet/webhook/paymentpoint/route.js"
+}

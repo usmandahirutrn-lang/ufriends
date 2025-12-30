@@ -1,0 +1,3 @@
+module.exports=[546317,e=>{"use strict";var i=e.i(762294),s=e.i(89171);async function r(e){let r=await i.prisma.user.findUnique({where:{id:e},select:{isKycVerified:!0}});return r?.isKycVerified?null:await i.prisma.kycRequest.findFirst({where:{userId:e,status:"APPROVED"}})?(await i.prisma.user.update({where:{id:e},data:{isKycVerified:!0}}),null):s.NextResponse.json({error:"KYC Required",message:"Please complete your KYC verification to access this service.",code:"KYC_REQUIRED"},{status:403})}e.s(["ensureKyc",()=>r])}];
+
+//# sourceMappingURL=lib_kyc-check_ts_95fab5db._.js.map
