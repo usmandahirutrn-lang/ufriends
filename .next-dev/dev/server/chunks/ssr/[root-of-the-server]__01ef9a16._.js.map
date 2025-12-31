@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/DELL/Downloads/ufriends%20version%201/app/dashboard/marketer/page.tsx"],"sourcesContent":["import { useEffect } from \"react\"\nimport { useRouter } from \"next/navigation\"\n\nexport default function MarketerDashboardPage() {\n  const router = useRouter()\n  useEffect(() => {\n    router.replace(\"/dashboard\")\n  }, [router])\n  return null\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;AAAA;;;AAEe,SAAS;IACtB,MAAM,SAAS,IAAA,kMAAS;IACxB,IAAA,kNAAS,EAAC;QACR,OAAO,OAAO,CAAC;IACjB,GAAG;QAAC;KAAO;IACX,OAAO;AACT","debugId":null}}]
-}
